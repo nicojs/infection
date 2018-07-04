@@ -43,7 +43,9 @@ final class MemoryFormatterTest extends TestCase
     public function bytesProvider()
     {
         yield [1048576, '1.00MB'];
+
         yield [1572864, '1.50MB'];
+
         yield [116737966, '111.33MB'];
     }
 }
